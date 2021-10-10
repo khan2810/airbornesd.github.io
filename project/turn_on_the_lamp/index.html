@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turn on the lamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1>Touch the lamp</h1>
+            <img src="./lamp_off.jpg" alt="lamp_off" id='lamp'>
+        </div>
+    </div>
+    <script>
+        const lamp = document.getElementById('lamp')
+        const div_container = document.getElementById('container')
+        lamp.addEventListener('click', function(){
+            if (lamp.alt === 'lamp_off') {
+                lamp.alt = 'light_on'
+                lamp.src = './light_on.jpg'
+                div_container.style.backgroundImage = "url('night.jpg')"
+            } else {
+                div_container.style.backgroundImage = "url('light_day.jpg')"
+                lamp.alt = 'lamp_off'
+                lamp.src = './lamp_off.jpg'
+            }
+        })
+    </script>
+</body>
+</html>
