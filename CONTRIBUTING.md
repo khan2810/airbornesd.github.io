@@ -10,3 +10,4 @@
 - [Huzaifa Ahmed](https://github.com/Huzaifaahmed20)
 - [Valentina](https://github.com/vale-c)
 - [Nishant Singh](https://github.com/nishant3721)
+- [Jackson Alves](https://github.com/jackson541)
