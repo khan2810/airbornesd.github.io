@@ -9,3 +9,4 @@
 - [Mohit Patel](https://github.com/mohit2314)
 - [Huzaifa Ahmed](https://github.com/Huzaifaahmed20)
 - [Valentina](https://github.com/vale-c)
+- [Prajwal Benedict A](https://github.com/BENEDICT9845)
