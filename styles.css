@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   width: 100%;
   height: 100%;
   background: #f6f6f6;
@@ -17,44 +18,9 @@ body, html {
   top: 25%;
 }
 
-nav {
-    margin:auto;
-    text-align: center;
-    width: 100%;
-    font-family: arial;
-} 
-
-nav ul {
-    background:#37988e;
-    padding: 0 20px;
-    list-style: none;
-    position: relative;
-    display: inline-table;
-    width: 100%;
-}
-
-nav ul li{
-    float:left;
-}
-
-nav ul li:hover{
-    background:#d68d9a;
-}
-
-nav ul li:hover a{
-     color:#000;
-}
-
-nav ul li a{
-     display: block;
-     padding: 25px;
-     color: #fff;
-     text-decoration: none;
-}
-
 hr {
   width: 25%;
-  height: .75px;
+  height: 0.75px;
   border: 0;
   background: #333;
   background-image: linear-gradient(to right, #f6f6f6, black, #f6f6f6);
@@ -65,15 +31,15 @@ h1 {
   font-weight: 700;
   line-height: 50px;
   height: 50px;
-  letter-spacing: -.03em;
-  font-family: 'Calligraffitti', cursive;
+  letter-spacing: -0.03em;
+  font-family: "Calligraffitti", cursive;
 }
 
 .slogan {
   font-size: 20px;
   font-weight: 200;
   margin-bottom: 26px;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   color: #666;
 }
 
@@ -101,55 +67,51 @@ li {
 li a {
   display: block;
   text-decoration: none;
-  color: #FF0000;
-  font-family: 'Open Sans', sans-serif;
+  color: #ff0000;
+  font-family: "Open Sans", sans-serif;
 }
 
-.navbar{
-
+.navbar {
   display: flex;
   align-items: center;
   padding: 12px;
 }
 
-nav{
-
+nav {
   flex: 1;
   text-align: right;
 }
 
-nav ul{
+nav ul {
   display: inline-block;
   list-style: none;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   margin-right: 30px;
 }
 
-a{
+a {
   text-decoration: none;
   color: rgb(3, 22, 37);
 }
 
-.handle{
-  background-color:transparent;
+.handle {
+  background-color: transparent;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 30px;
   margin: 5px 10px;
-  font-size: 1.20em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
-
-.handle a:hover{
+.handle a:hover {
   background-color: rgba(255, 255, 255, 0.959);
   border-radius: 20px;
-
 }
 
-.handle a i{
+.handle a i {
   margin: 5px;
 }
