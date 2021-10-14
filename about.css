@@ -1,8 +1,8 @@
 body {
-    background-color: #CAF7E3;
-    font-family: sans-serif;
-  }
-  
+  background-color: #caf7e3;
+  font-family: sans-serif;
+}
+
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -11,13 +11,12 @@ hr {
   width: 5%;
 }
 h1 {
-  color: #0A81AB;
+  color: #0a81ab;
 }
 h3 {
-  color: #0A81AB;
+  color: #0a81ab;
 }
-  
-  
+
 td {
   font-size: 13px;
 }
@@ -25,46 +24,50 @@ li {
   font-size: 13px;
 }
 
-.per_img,.per_info h1,.intro p,.intro h2{
+.per_img,
+.per_info h1,
+.intro p,
+.intro h2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.icons{
+.icons {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.icons a{
+.icons a {
   font-size: 28px;
   margin-right: 22px;
   text-decoration: none;
   color: black;
   margin-bottom: 7px;
 }
-.intro{
+.intro {
   position: relative;
   align-items: center;
   margin: 10px;
   font-size: large;
 }
-.description{
+.description {
   margin: 28px 50px;
   font-size: larger;
 }
-.common{
+.common {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.common h3{
+.common h3 {
   font-size: 20px;
 }
-.common li,.common td{
+.common li,
+.common td {
   font-size: larger;
 }
-.experience li,.experience td{
+.experience li,
+.experience td {
   font-size: large;
 }
