@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <h2>PROJECT LIST</h2>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project List</title>
 </head>
 <body>
-    <ul>
+    <ol>
         <li><a href="./project1/project1.html">Calculator</a></li>
         <li><a href="./clock/index.html">Clock</a></li>
         <li><a href="./Javascript Calculator/index.html">Javascript Calculator</a></li>
@@ -19,6 +20,49 @@
         <li><a href="./snake game/index.html">Snake Game</a></li>
         <li><a href="./Typing tester/index.html">Typing tester</a></li>
         <li><a href="./windows-11/index.html">Windows-11</a></li>
-    </ul>
+    </ol>
+<style>
+ol {
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .5em 2em;
+  margin: .5em 0;
+  background: #D9D9D9;
+  color: black;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: .3s ease-out;
+}
+
+ol a:hover { background: #80C2C5; }
+ol a:hover:before { transform: rotate(90deg); }
+ol a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #f9dd94;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+h2{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style>
 </body>
 </html>
