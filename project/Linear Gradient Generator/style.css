@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    background: linear-gradient(45deg, #020024, #fc0478, #00d4ff);
+}
+
+#box {
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+input[type="color"] {
+    width: 20%;
+}
+
+input[type="range"] {
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+}
