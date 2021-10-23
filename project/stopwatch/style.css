@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #7435f2;
+}
+
+@font-face {
+    font-family: external-font;
+    src: url(Crashnumberingserif-KVjW.ttf);
+  }
+
+
+#stopwatch {
+    border-style: solid;
+    border-color: #00ab87;
+    border-width: 10px;
+    background-color: black;
+    text-align: center;
+    grid-area: stopwatch
+}
+
+#start_button {
+    grid-area: start_button
+}
+
+#stop_button {
+    grid-area: stop_button
+}
+
+#reset_button {
+    grid-area: reset_button
+}
+
+#container {
+    display: grid;
+    grid-template-areas:
+        "stopwatch stopwatch stopwatch"
+        "start_button stop_button reset_button"
+    ;
+    height: 20vh;
+    width: 100vh;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 15% 25%;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 15px;
+    background-color: #00ab87;
+    color: black;
+    border-color: black;
+}
+
+#timer {
+    color: #00ab87;
+    font-size: 100px;
+    font-family: external-font;
+}
