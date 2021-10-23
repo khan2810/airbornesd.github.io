@@ -14,3 +14,4 @@
 - [Jackson Alves](https://github.com/jackson541)
 - [Shreya](https://github.com/butterflysly53)
 - [Rehmat-E-Mustafa](https://github.com/Rehmat-E-Mustafa)
+- [Muhammad Adil](https://github.com/madildev)
