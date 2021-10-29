@@ -6,6 +6,7 @@
 - [Shreyas Bhike](https://github.com/ShreyasBhike)
 - [Aman Yadav](https://github.com/aman-netizen)
 - [Armaan Khan](https://github.com/Armaan2807)
+- [Amul Rathore](https://github.com/amul-code)
 - [Mohit Patel](https://github.com/mohit2314)
 - [Huzaifa Ahmed](https://github.com/Huzaifaahmed20)
 - [Valentina](https://github.com/vale-c)
