@@ -79,7 +79,7 @@ li a {
 
 nav {
   flex: 1;
-  text-align: right;
+  text-align: center;
 }
 
 nav ul {
@@ -95,6 +95,11 @@ nav ul li {
 a {
   text-decoration: none;
   color: rgb(3, 22, 37);
+}
+.nav-items{
+  text-align: center;
+  text-decoration: none;
+
 }
 
 .handle {
