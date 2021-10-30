@@ -13,6 +13,10 @@ hr {
 h1 {
   color: #0a81ab;
 }
+h2{
+  color:black;
+  font-family: cursive;
+}
 h3 {
   color: #0a81ab;
 }
@@ -23,7 +27,6 @@ td {
 li {
   font-size: 13px;
 }
-
 .per_img,
 .per_info h1,
 .intro p,
