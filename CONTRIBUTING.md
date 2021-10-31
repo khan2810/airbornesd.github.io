@@ -21,3 +21,4 @@
 - [Muhammad Adil](https://github.com/madildev)
 - [Siddhant Mishra](https://github.com/Siddhantmi)
 - [Saheb Giri](https://github.com/iamsahebgiri)
+- [Amaan Khan](https://github.com/khan2810)
